@@ -23,6 +23,7 @@ public class file_reading extends Spell_checker {   // This class extends Spell 
         String words_sample;
         Boolean found;
         int blank = 0;
+        // HELLLLOOOO TESTING GIT
         System.out.println("The Following program will display words that were mispelled in your selected files, and give you suggestions\n");
 
 //Creation of the 2 instances of the 2 classes

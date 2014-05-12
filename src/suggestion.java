@@ -125,7 +125,7 @@ public class suggestion {
         if (tgt.length() == 0) {
             return src.length();
         }
-        d = new int[src.length() + 1][tgt.length() + 1];
+        d = new int[$][tgt.length() + 1];
         for (int i = 0; i <= src.length(); i++) { // Setting the values for the 2d int array 
             d[i][0] = i;
         }
